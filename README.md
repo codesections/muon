@@ -9,7 +9,8 @@ This custom CSS strips out all of the mouse-driven UI from Proton Mail, making i
 # "Installation" instructions
 
 Copy the CSS from `muon.css` into the `Custom Theme` box at [mail.protonmail.com/appearance](https://mail.protonmail.com/appearance).
-#FAQ
+
+# FAQ
 
 ### Wait, really?
 
