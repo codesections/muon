@@ -6,14 +6,11 @@ Muon, the *Mu*tt theme for Prot*on*—it doesn't get smaller than this.
 
 This custom CSS strips out all of the mouse-driven UI from Proton Mail, making it similar to the command-line email client [Mutt](http://www.mutt.org/).  This means that you navigate it (almost) entirely though keyboard shortcuts.  (Press `?` to see a list of ProtonMail's keyboard commands.)
 
-<div style="width: 50%">
   <h2>Before</h2>
   <img src="before.png">
-</div>
-<div style="width: 50%">
+  
   <h2>After</h2>
   <img src="after.png">
-</div>
 
 # "Installation" instructions
 
