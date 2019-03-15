@@ -6,6 +6,15 @@ Muon, the *Mu*tt theme for Prot*on*—it doesn't get smaller than this.
 
 This custom CSS strips out all of the mouse-driven UI from Proton Mail, making it similar to the command-line email client [Mutt](http://www.mutt.org/).  This means that you navigate it (almost) entirely though keyboard shortcuts.  (Press `?` to see a list of ProtonMail's keyboard commands.)
 
+<div style="width: 50%">
+  <h2>Before</h2>
+  <img src="before.png">
+</div>
+<div style="width: 50%">
+  <h2>After</h2>
+  <img src="after.png">
+</div>
+
 # "Installation" instructions
 
 Copy the CSS from `muon.css` into the `Custom Theme` box at [mail.protonmail.com/appearance](https://mail.protonmail.com/appearance).
@@ -34,11 +43,15 @@ Two other commands to remember: `<SHIFT-space>` opens the command pallet, which 
 
 Well, you can jump to a specific folder by searching for `in:$FOLDER_NAME`.  For example, I jump to my `promo` folder by pressing `/` and then searching `in:promo`.  No, you can't do `in:p*`.  And no, `in:p<TAB>` doesn't autocomplete.  Yes, I agree it should.  I [opened an issue](https://github.com/ProtonMail/WebClient/issues/144).  Until that's resolved, I recommend short folder names.
 
+### How do I use this to send Rich Text emails instead of plaintext?
+
+You don't.  Even asking that question makes me wonder if you really even *get* the whole idea behind this theme.
+
 ### Wait, I just noticed something—you turned off the button for settings!  How do I get to settings?  I can't even turn this blasted thing off!
 
 Of course I turned it off—it was a button, after all!  And what good would something with vim-inspired keybindings be if it weren't at least a *little* hard to quit? 
 
-Fortunatly, ProtonMail follows a sane URL schme for their app, so you can get to any of the settings pages by going to that page directly.  Here's a list of all the urls you might want:
+Fortunately, ProtonMail follows a sane URL scheme for their app, so you can get to any of the settings pages by going to that page directly.  Here's a list of all the URLs you might want:
 
  * [mail.protonmail.com/inbox](https://mail.protonmail.com/inbox)
  * [mail.protonmail.com/contacts](https://mail.protonmail.com/contacts)
@@ -57,7 +70,7 @@ Fortunatly, ProtonMail follows a sane URL schme for their app, so you can get to
  * [mail.protonmail.com/keys](https://mail.protonmail.com/keys)
  * [mail.protonmail.com/vpn](https://mail.protonmail.com/vpn)
 
-Specifically, if you want to turn it off, you'll want the `mail.protonmail.com/appearance` URL.   (No promisses that you can use the settings pages without a mouse, though, saddly enough).
+Specifically, if you want to turn it off, you'll want the `mail.protonmail.com/appearance` URL.   (No promises that you can use the settings pages without a mouse, though, sadly enough).
 
 ### Ok, sounds like I can do a lot.  Is there anything I *can't* do without a mouse?
 
