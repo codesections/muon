@@ -22,15 +22,17 @@ Probably not.  You have to be a special kind of crazy to want to turn a perfectl
 
 ### Ok, but do *you* actually use it?
 
-Yep, every day!  I'm that special kind of crazy!
+Yep, every day—I'm that special kind of crazy!
 
 ### If I *do* use it, how does it work?
 
-Mostly, you just use the ProtonMail's keyboard commands.  As I mentioned up top, press `?` to see a list of the keyboard commands.  Ironically enough, the list of keyboard commands *itself* doesn't support keyboard navigation that well, but you can `<TAB>` though the various options.   That lets you navigate to your inbox or other built-in ProtonMail folders (Spam, Sent, etc.).  Two other commands to remember: `<SHIFT-space>` opens the command pallet, which lets you do a few more things with your keyboard.  And `/` jumps you to the search bar, which will prove useful for more than just searching for emails.
+Mostly, you just use the ProtonMail's keyboard commands.  As I mentioned up top, press `?` to see a list of the keyboard commands.  Ironically enough, the list of keyboard commands *itself* doesn't support keyboard navigation that well, but you can `<TAB>` though the various options.   That lets you navigate to your inbox or other built-in ProtonMail folders (Spam, Sent, etc.).
+
+Two other commands to remember: `<SHIFT-space>` opens the command pallet, which lets you do a few more things with your keyboard.  And `/` jumps you to the search bar, which will prove useful for more than just searching for emails.
 
 ### Should I know anything else about keyboard navigation other than pressing `?`?
 
-Well, you can jump to a specific folder by searching for `in:$FOLDER_NAME`.  For example, I jump to my `promo` folder by pressing `/` and then searching `in:promo`.  No, you can't do `in:p*`.  And no, `in:p<TAB>` doesn't autocomplete.  Yes, I agree it should.  I [opened an issue](https://github.com/ProtonMail/WebClient/issues/144)`
+Well, you can jump to a specific folder by searching for `in:$FOLDER_NAME`.  For example, I jump to my `promo` folder by pressing `/` and then searching `in:promo`.  No, you can't do `in:p*`.  And no, `in:p<TAB>` doesn't autocomplete.  Yes, I agree it should.  I [opened an issue](https://github.com/ProtonMail/WebClient/issues/144).  Until that's resolved, I recommend short folder names.
 
 ### Wait, I just noticed something—you turned off the button for settings!  How do I get to settings?  I can't even turn this blasted thing off!
 
@@ -59,7 +61,7 @@ Specifically, if you want to turn it off, you'll want the `mail.protonmail.com/a
 
 ### Ok, sounds like I can do a lot.  Is there anything I *can't* do without a mouse?
 
-You can't delete messages from the Trash or empty the Trash (though they're auto-deleted on their own).  You also can't add a custom filter based on an existing email message, though I left the button alone for that so you *can* still get out your mouse if you need to.
+You can't delete messages from the Trash or empty the Trash (though they're auto-deleted on their own).  You also can't add a custom filter based on an existing email message, though I left the button alone for that so you *can* still get out your mouse like a caveman if you need to.
 
 ### Any other bugs I should know about?
 
