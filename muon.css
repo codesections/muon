@@ -1,0 +1,53 @@
+/*
+ * Hide everything we can safely hide
+ */
+.pm_toolbar.pm_toolbar_withSelector, 
+.navigation,
+.logo,
+.ptSidebar,
+.squireToolbar-row-1,
+.composerHeader-container {
+  display: none;
+}
+
+
+/*
+ * If we can't hide it, make is smaller
+ */
+.headerSecuredDesktop-container {
+  height: 3em;
+}
+#pm_composer .composer footer {
+  padding: 3px;
+}
+
+/*
+ * Make our actual/primary UI bigger to use our new space
+ */
+body #pm_main {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+body #wrapper {
+  height: 100%;
+}
+.searchForm-container {
+  max-width: 100vw;
+  width: calc(100vw - 20px)
+}
+#pm_composer .composer.maximized {
+  width: 100%;
+  top: 2.5em;
+  bottom: 0;
+  left: 20px;
+}
+
+/*
+ * Our emails are always plaintext, so we don't need to change the 
+ * font to show that they are (plus, the emails don't show up as
+ * monospace on the other end anyway, so we shouldn't count on it)
+ */
+.plaintext-editor {
+  font-family: inherit;
+}
